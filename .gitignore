@@ -20,11 +20,12 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# Virtual Environment (CRITICAL!)
 venv/
 env/
 ENV/
 .venv
+hni-investment-analyzer.venv/
 
 # IDE
 .vscode/
@@ -44,18 +45,13 @@ Thumbs.db
 # Environment variables
 .env
 
-# Data cache (too large for GitHub)
+# Data cache
 data/cache/
 *.parquet
 
-# Jupyter Notebooks
+# Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Large data files
-*.csv.gz
-*.zip
-
-# Temporary files
+# Temporary
 *.tmp
 *.bak
