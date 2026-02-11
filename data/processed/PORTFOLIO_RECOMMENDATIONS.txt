@@ -1,0 +1,362 @@
+
+
+====================================================================================================
+HNI INVESTMENT PORTFOLIO RECOMMENDATIONS
+AI-Powered Stock Analysis & Ranking System
+====================================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------------------------------------
+
+Total Universe: 102 companies analyzed
+Analysis Date: 2026-02-10
+
+Portfolio Allocation Recommendations:
+  • Magnificent 7:      All 7 companies ranked
+  • Giant Cap (>$500B): Top 5 of 4 analyzed
+  • Large Cap ($100B-$500B): Top 7 of 42 analyzed
+  • Mid Cap (<$100B): Top 10 of 49 analyzed
+
+====================================================================================================
+
+
+====================================================================================================
+MAGNIFICENT 7 TECH GIANTS
+====================================================================================================
+
+Total Companies: 7
+Top Picks Selected: 7
+Average Composite Score: 51.31
+Total Market Cap: $21.10T
+Profitable Companies: 100.0%
+
+Risk Distribution:
+  Low Risk:      0.0%
+  Medium Risk:   0.0%
+  High Risk:   100.0%
+
+----------------------------------------------------------------------------------------------------
+TOP PICKS:
+----------------------------------------------------------------------------------------------------
+
+Rank  Symbol  Company                            Score   Quality  Value   Growth  Risk        
+----------------------------------------------------------------------------------------------------
+1     NVDA    NVIDIA Corporation                 100.00    100.00     100.00    100.00    High Risk   
+2     GOOGL   Alphabet Inc.                      62.24    79.68     53.99    55.03    High Risk   
+3     AAPL    Apple Inc.                         60.01    100.00     36.32    41.18    High Risk   
+4     MSFT    Microsoft Corporation              57.60    93.94     65.94    43.60    High Risk   
+5     META    Meta Platforms, Inc.               49.68    69.41     35.58    41.13    High Risk   
+6     AMZN    Amazon.com, Inc.                   33.46    39.56     35.01    31.02    High Risk   
+7     TSLA    Tesla, Inc.                        0.00    0.00     0.00    0.00    High Risk   
+
+----------------------------------------------------------------------------------------------------
+DETAILED ANALYSIS OF TOP 3:
+----------------------------------------------------------------------------------------------------
+
+1. NVDA - NVIDIA Corporation
+   Rank Score: 100.00 | Market Cap: $4.63T
+   P/E: 46.92 | Profit Margin: 53.01% | Revenue Growth: 62.50%
+   Quality: 100.0 | Value: 100.0 | Growth: 100.0 | Momentum: 100.0
+   Risk: High Risk | Profitability: Highly Profitable
+
+2. GOOGL - Alphabet Inc.
+   Rank Score: 62.24 | Market Cap: $3.91T
+   P/E: 29.84 | Profit Margin: 32.81% | Revenue Growth: 18.00%
+   Quality: 79.7 | Value: 54.0 | Growth: 55.0 | Momentum: 58.0
+   Risk: High Risk | Profitability: Highly Profitable
+
+3. AAPL - Apple Inc.
+   Rank Score: 60.01 | Market Cap: $4.09T
+   P/E: 35.21 | Profit Margin: 27.04% | Revenue Growth: 15.70%
+   Quality: 100.0 | Value: 36.3 | Growth: 41.2 | Momentum: 57.8
+   Risk: High Risk | Profitability: Highly Profitable
+
+====================================================================================================
+
+
+INVESTMENT THESIS - Magnificent 7 Tech Giants
+----------------------------------------------------------------------------------------------------
+
+Market Outlook: Moderate opportunities with selective picks
+
+PRIMARY RECOMMENDATION: NVDA - NVIDIA Corporation
+  Why: Highest overall score (100.00) combining strong fundamentals,
+       attractive valuation, and positive momentum. Highly Profitable with
+       53.0% margins and 62.5% growth.
+
+ALTERNATIVE PICKS:
+  2. GOOGL: Strong quality profile
+  3. AAPL: Strong quality profile
+
+
+====================================================================================================
+GIANT COMPANIES (>$500B)
+====================================================================================================
+
+Total Companies: 4
+Top Picks Selected: 5
+Average Composite Score: 58.30
+Total Market Cap: $3.98T
+Profitable Companies: 100.0%
+
+Risk Distribution:
+  Low Risk:      0.0%
+  Medium Risk:  75.0%
+  High Risk:    25.0%
+
+----------------------------------------------------------------------------------------------------
+TOP PICKS:
+----------------------------------------------------------------------------------------------------
+
+Rank  Symbol  Company                            Score   Quality  Value   Growth  Risk        
+----------------------------------------------------------------------------------------------------
+1     JNJ     Johnson & Johnson                  68.02    75.25     72.53    48.85    Medium Risk 
+2     LLY     Eli Lilly and Company              61.72    81.64     33.71    68.34    Medium Risk 
+3     AVGO    Broadcom Inc.                      58.25    75.46     32.03    72.42    High Risk   
+4     JPM     JPMorgan Chase & Co.               46.87    50.60     65.91    27.06    Medium Risk 
+
+----------------------------------------------------------------------------------------------------
+DETAILED ANALYSIS OF TOP 3:
+----------------------------------------------------------------------------------------------------
+
+1. JNJ - Johnson & Johnson
+   Rank Score: 68.02 | Market Cap: $578.21B
+   P/E: 21.74 | Profit Margin: 28.46% | Revenue Growth: 9.10%
+   Quality: 75.2 | Value: 72.5 | Growth: 48.9 | Momentum: 78.1
+   Risk: Medium Risk | Profitability: Highly Profitable
+
+2. LLY - Eli Lilly and Company
+   Rank Score: 61.72 | Market Cap: $948.61B
+   P/E: 46.09 | Profit Margin: 31.67% | Revenue Growth: 42.60%
+   Quality: 81.6 | Value: 33.7 | Growth: 68.3 | Momentum: 57.3
+   Risk: Medium Risk | Profitability: Highly Profitable
+
+3. AVGO - Broadcom Inc.
+   Rank Score: 58.25 | Market Cap: $1.58T
+   P/E: 69.85 | Profit Margin: 36.20% | Revenue Growth: 16.40%
+   Quality: 75.5 | Value: 32.0 | Growth: 72.4 | Momentum: 46.1
+   Risk: High Risk | Profitability: Highly Profitable
+
+====================================================================================================
+
+
+INVESTMENT THESIS - Giant Companies (>$500B)
+----------------------------------------------------------------------------------------------------
+
+Market Outlook: Moderate opportunities with selective picks
+
+PRIMARY RECOMMENDATION: JNJ - Johnson & Johnson
+  Why: Highest overall score (68.02) combining strong fundamentals,
+       attractive valuation, and positive momentum. Highly Profitable with
+       28.5% margins and 9.1% growth.
+
+ALTERNATIVE PICKS:
+  2. LLY: Strong quality profile
+  3. AVGO: Strong quality profile
+
+
+====================================================================================================
+LARGE CAP ($100B-$500B)
+====================================================================================================
+
+Total Companies: 42
+Top Picks Selected: 7
+Average Composite Score: 48.65
+Total Market Cap: $10.03T
+Profitable Companies: 97.6%
+
+Risk Distribution:
+  Low Risk:      0.0%
+  Medium Risk:  33.3%
+  High Risk:    66.7%
+
+----------------------------------------------------------------------------------------------------
+TOP PICKS:
+----------------------------------------------------------------------------------------------------
+
+Rank  Symbol  Company                            Score   Quality  Value   Growth  Risk        
+----------------------------------------------------------------------------------------------------
+1     GILD    Gilead Sciences, Inc.              67.84    59.17     73.76    57.87    Medium Risk 
+2     LRCX    Lam Research Corporation           67.44    65.58     27.80    82.12    High Risk   
+3     ABBV    AbbVie Inc.                        62.56    87.29     55.05    54.11    Medium Risk 
+4     MO      Altria Group, Inc.                 61.46    89.30     71.34    18.65    Medium Risk 
+5     MRK     Merck & Co., Inc.                  61.35    74.12     65.25    31.80    Medium Risk 
+6     KLAC    KLA Corporation                    58.38    73.92     35.79    52.27    High Risk   
+7     LMT     Lockheed Martin Corporation        58.31    21.79     72.36    62.06    Medium Risk 
+
+----------------------------------------------------------------------------------------------------
+DETAILED ANALYSIS OF TOP 3:
+----------------------------------------------------------------------------------------------------
+
+1. GILD - Gilead Sciences, Inc.
+   Rank Score: 67.84 | Market Cap: $189.22B
+   P/E: 23.57 | Profit Margin: 27.88% | Revenue Growth: 3.00%
+   Quality: 59.2 | Value: 73.8 | Growth: 57.9 | Momentum: 84.7
+   Risk: Medium Risk | Profitability: Highly Profitable
+
+2. LRCX - Lam Research Corporation
+   Rank Score: 67.44 | Market Cap: $290.16B
+   P/E: 47.44 | Profit Margin: 30.22% | Revenue Growth: 22.10%
+   Quality: 65.6 | Value: 27.8 | Growth: 82.1 | Momentum: 91.4
+   Risk: High Risk | Profitability: Highly Profitable
+
+3. ABBV - AbbVie Inc.
+   Rank Score: 62.56 | Market Cap: $394.89B
+   P/E: 94.27 | Profit Margin: 6.91% | Revenue Growth: 10.00%
+   Quality: 87.3 | Value: 55.1 | Growth: 54.1 | Momentum: 50.2
+   Risk: Medium Risk | Profitability: Profitable
+
+====================================================================================================
+
+
+INVESTMENT THESIS - Large Cap ($100B-$500B)
+----------------------------------------------------------------------------------------------------
+
+Market Outlook: Challenging environment, focus on quality
+
+PRIMARY RECOMMENDATION: GILD - Gilead Sciences, Inc.
+  Why: Highest overall score (67.84) combining strong fundamentals,
+       attractive valuation, and positive momentum. Highly Profitable with
+       27.9% margins and 3.0% growth.
+
+ALTERNATIVE PICKS:
+  2. LRCX: Strong momentum profile
+  3. ABBV: Strong quality profile
+
+
+====================================================================================================
+MID CAP (<$100B)
+====================================================================================================
+
+Total Companies: 49
+Top Picks Selected: 10
+Average Composite Score: 43.74
+Total Market Cap: $2.85T
+Profitable Companies: 89.8%
+
+Risk Distribution:
+  Low Risk:      0.0%
+  Medium Risk:  28.6%
+  High Risk:    71.4%
+
+----------------------------------------------------------------------------------------------------
+TOP PICKS:
+----------------------------------------------------------------------------------------------------
+
+Rank  Symbol  Company                            Score   Quality  Value   Growth  Risk        
+----------------------------------------------------------------------------------------------------
+1     MPC     Marathon Petroleum Corporation     66.84    33.18     90.25    81.53    High Risk   
+2     ALL     The Allstate Corporation           60.61    56.37     100.00    43.46    Medium Risk 
+3     KMI     Kinder Morgan, Inc.                59.58    56.33     74.91    43.65    High Risk   
+4     BK      The Bank of New York Mellon Corpo  53.77    40.76     78.80    42.24    Medium Risk 
+5     DG      Dollar General Corporation         51.19    14.97     72.96    53.76    Medium Risk 
+6     FCX     Freeport-McMoRan Inc.              49.72    28.01     52.38    41.10    High Risk   
+7     EOG     EOG Resources, Inc.                49.05    53.27     73.21    17.14    Medium Risk 
+8     AVB     AvalonBay Communities, Inc.        48.25    82.00     55.83    14.21    High Risk   
+9     ITW     Illinois Tool Works Inc.           47.90    58.48     33.51    29.82    High Risk   
+10    AMT     American Tower Corporation         47.71    48.18     51.10    46.90    High Risk   
+
+----------------------------------------------------------------------------------------------------
+DETAILED ANALYSIS OF TOP 3:
+----------------------------------------------------------------------------------------------------
+
+1. MPC - Marathon Petroleum Corporation
+   Rank Score: 66.84 | Market Cap: $61.02B
+   P/E: 15.36 | Profit Margin: 3.03% | Revenue Growth: -0.50%
+   Quality: 33.2 | Value: 90.2 | Growth: 81.5 | Momentum: 66.6
+   Risk: High Risk | Profitability: Marginally Profitable
+
+2. ALL - The Allstate Corporation
+   Rank Score: 60.61 | Market Cap: $54.31B
+   P/E: 5.45 | Profit Margin: 15.19% | Revenue Growth: 5.10%
+   Quality: 56.4 | Value: 100.0 | Growth: 43.5 | Momentum: 47.4
+   Risk: Medium Risk | Profitability: Highly Profitable
+
+3. KMI - Kinder Morgan, Inc.
+   Rank Score: 59.58 | Market Cap: $67.86B
+   P/E: 22.26 | Profit Margin: 18.04% | Revenue Growth: 13.10%
+   Quality: 56.3 | Value: 74.9 | Growth: 43.6 | Momentum: 67.7
+   Risk: High Risk | Profitability: Highly Profitable
+
+====================================================================================================
+
+
+INVESTMENT THESIS - Mid Cap (<$100B)
+----------------------------------------------------------------------------------------------------
+
+Market Outlook: Challenging environment, focus on quality
+
+PRIMARY RECOMMENDATION: MPC - Marathon Petroleum Corporation
+  Why: Highest overall score (66.84) combining strong fundamentals,
+       attractive valuation, and positive momentum. Marginally Profitable with
+       3.0% margins and -0.5% growth.
+
+ALTERNATIVE PICKS:
+  2. ALL: Strong value profile
+  3. KMI: Strong value profile
+
+
+====================================================================================================
+OVERALL TOP 20 PICKS
+====================================================================================================
+
+1. NVDA - NVIDIA Corporation
+   Score: 100.00 | Category: Mag7/Giant | Market Cap: $4626.9B
+
+2. JNJ - Johnson & Johnson
+   Score: 68.02 | Category: Mag7/Giant | Market Cap: $578.2B
+
+3. GILD - Gilead Sciences, Inc.
+   Score: 67.84 | Category: Large Cap | Market Cap: $189.2B
+
+4. LRCX - Lam Research Corporation
+   Score: 67.44 | Category: Large Cap | Market Cap: $290.2B
+
+5. MPC - Marathon Petroleum Corporation
+   Score: 66.84 | Category: Mid Cap | Market Cap: $61.0B
+
+6. ABBV - AbbVie Inc.
+   Score: 62.56 | Category: Large Cap | Market Cap: $394.9B
+
+7. GOOGL - Alphabet Inc.
+   Score: 62.24 | Category: Mag7/Giant | Market Cap: $3905.6B
+
+8. LLY - Eli Lilly and Company
+   Score: 61.72 | Category: Mag7/Giant | Market Cap: $948.6B
+
+9. MO - Altria Group, Inc.
+   Score: 61.46 | Category: Large Cap | Market Cap: $109.8B
+
+10. MRK - Merck & Co., Inc.
+   Score: 61.35 | Category: Large Cap | Market Cap: $304.6B
+
+11. ALL - The Allstate Corporation
+   Score: 60.61 | Category: Mid Cap | Market Cap: $54.3B
+
+12. AAPL - Apple Inc.
+   Score: 60.01 | Category: Mag7/Giant | Market Cap: $4087.8B
+
+13. KMI - Kinder Morgan, Inc.
+   Score: 59.58 | Category: Mid Cap | Market Cap: $67.9B
+
+14. KLAC - KLA Corporation
+   Score: 58.38 | Category: Large Cap | Market Cap: $189.6B
+
+15. LMT - Lockheed Martin Corporation
+   Score: 58.31 | Category: Large Cap | Market Cap: $144.3B
+
+16. AVGO - Broadcom Inc.
+   Score: 58.25 | Category: Mag7/Giant | Market Cap: $1576.4B
+
+17. MSFT - Microsoft Corporation
+   Score: 57.60 | Category: Mag7/Giant | Market Cap: $2981.4B
+
+18. GS - The Goldman Sachs Group, Inc.
+   Score: 57.60 | Category: Large Cap | Market Cap: $281.2B
+
+19. INTC - Intel Corporation
+   Score: 57.58 | Category: Large Cap | Market Cap: $252.7B
+
+20. AMGN - Amgen Inc.
+   Score: 57.31 | Category: Large Cap | Market Cap: $207.1B
+

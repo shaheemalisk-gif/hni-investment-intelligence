@@ -1,0 +1,89 @@
+# Data Sources
+data_sources:
+  primary: "yfinance"
+  backup: "alpha_vantage"
+  macro: "fred"
+
+# Data Collection Settings
+data_collection:
+  historical_years: 5
+  cache_enabled: true
+  cache_expiry_hours: 24
+  rate_limit_delay: 1.0
+  max_retries: 3
+
+# Market Categories
+market_caps:
+  giant: 500000000000
+  large: 100000000000
+  mid: 100000000000
+
+# Feature Engineering
+features:
+  financial_ratios:
+    - pe_ratio
+    - peg_ratio
+    - price_to_book
+    - price_to_sales
+    - debt_to_equity
+    - current_ratio
+    - quick_ratio
+  
+  profitability:
+    - profit_margin
+    - operating_margin
+    - gross_margin
+    - roe
+    - roa
+    - roic
+  
+  growth:
+    - revenue_growth_yoy
+    - revenue_growth_3y
+    - eps_growth_yoy
+    - eps_growth_3y
+  
+  risk:
+    - beta
+    - volatility_30d
+    - volatility_90d
+    - max_drawdown
+  
+  cash_flow:
+    - free_cash_flow
+    - fcf_growth
+    - operating_cash_flow
+
+# ML Model Settings
+ml_models:
+  random_forest:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 10
+    random_state: 42
+  
+  xgboost:
+    n_estimators: 150
+    learning_rate: 0.05
+    max_depth: 8
+    
+  outlier_detection:
+    contamination: 0.1
+    method: "isolation_forest"
+
+# Health Scoring Weights
+health_weights:
+  financial_strength: 0.25
+  growth_trajectory: 0.20
+  profitability: 0.15
+  risk_management: 0.15
+  market_position: 0.10
+  valuation: 0.10
+  macro_factors: 0.05
+
+# Ranking Weights
+ranking_weights:
+  ml_score: 0.40
+  fundamental_score: 0.30
+  momentum_score: 0.15
+  quality_score: 0.15

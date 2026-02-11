@@ -1,0 +1,77 @@
+# Company symbols by category
+
+magnificent_seven:
+  - AAPL  # Apple
+  - MSFT  # Microsoft
+  - GOOGL # Alphabet
+  - AMZN  # Amazon
+  - NVDA  # NVIDIA
+  - TSLA  # Tesla
+  - META  # Meta
+
+# Will be populated dynamically based on market cap
+# But include seed lists for testing
+
+seed_symbols:
+  # Tech giants
+  tech:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - NVDA
+    - META
+    - ORCL
+    - CSCO
+    - ADBE
+    - CRM
+    - INTC
+    - AMD
+    - QCOM
+  
+  # Healthcare
+  healthcare:
+    - UNH
+    - JNJ
+    - LLY
+    - ABBV
+    - MRK
+    - PFE
+    - TMO
+    - ABT
+  
+  # Finance
+  finance:
+    - JPM
+    - BAC
+    - WFC
+    - GS
+    - MS
+    - BLK
+    - V
+    - MA
+  
+  # Consumer
+  consumer:
+    - WMT
+    - PG
+    - KO
+    - PEP
+    - COST
+    - HD
+    - NKE
+    - MCD
+  
+  # Energy
+  energy:
+    - XOM
+    - CVX
+    - COP
+    - SLB
+  
+  # Industrials
+  industrials:
+    - BA
+    - CAT
+    - GE
+    - HON
+    - UPS
