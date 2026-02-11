@@ -359,7 +359,7 @@ MIT License - See LICENSE file for details
 
 ## 👥 Contributors
 
-Built by: [Your Name]
+Built by: Muhammed Shaheem OP
 Date: February 2026
 Purpose: HNI Investment Platform Technical Assessment
 
@@ -368,8 +368,8 @@ Purpose: HNI Investment Platform Technical Assessment
 ## 📧 Contact
 
 For questions or issues:
-- Email: your.email@example.com
-- GitHub: github.com/yourusername
+- Email: mhdshaheemop@gmail.com
+- GitHub: github.com/shaheemalisk-gif
 
 ---
 
