@@ -666,7 +666,7 @@ def main():
         
         ### 📧 Contact
         
-        Built by: [Your Name]  
+        Built by: Muhammed Shaheem OP
         Date: February 2026  
         Purpose: HNI Investment Platform
         
