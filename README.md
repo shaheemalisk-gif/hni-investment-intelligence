@@ -235,8 +235,6 @@ hni-investment-analyzer/
 
 ### Data Sources
 - **Primary**: Yahoo Finance (yfinance library)
-- **Backup**: Alpha Vantage API
-- **Macro Data**: FRED API
 
 ### Key Technologies
 - **Python 3.12**: Core language
@@ -351,15 +349,11 @@ Rank Score = Weighted Average of:
 
 ---
 
-## 📝 License
-
-MIT License - See LICENSE file for details
-
----
 
 ## 👥 Contributors
 
 Built by: Muhammed Shaheem OP
+
 Date: February 2026
 Purpose: HNI Investment Platform Technical Assessment
 
