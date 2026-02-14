@@ -19,6 +19,11 @@ from datetime import datetime
 import os
 import sys
 
+from src.models.health_scorer import CompanyHealthScorer
+from src.models.portfolio_ranker import PortfolioRanker
+from src.utils.helpers import format_market_cap
+
+
 # Add to sidebar
 st.sidebar.markdown("---")
 st.sidebar.subheader("📊 Data Status")
@@ -81,9 +86,6 @@ if st.sidebar.button("🔄 Refresh Data Now"):
             status_text.text("Running data collection...")
             progress_bar.progress(60)
 
-from src.models.health_scorer import CompanyHealthScorer
-from src.models.portfolio_ranker import PortfolioRanker
-from src.utils.helpers import format_market_cap
 
 # Page configuration
 st.set_page_config(
