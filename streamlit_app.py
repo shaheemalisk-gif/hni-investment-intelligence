@@ -14,12 +14,18 @@ import streamlit as st
 from datetime import datetime
 import os
 
-# In the sidebar
+import streamlit as st
+from datetime import datetime
+import os
+import sys
+
+# Add to sidebar
 st.sidebar.markdown("---")
 st.sidebar.subheader("📊 Data Status")
 
 # Show data age
 data_file = 'data/processed/stock_universe_engineered.csv'
+
 if os.path.exists(data_file):
     file_time = datetime.fromtimestamp(os.path.getmtime(data_file))
     age = datetime.now() - file_time
@@ -29,11 +35,12 @@ if os.path.exists(data_file):
     if age.days > 1:
         st.sidebar.warning(f"⚠️ Data is {age.days} days old")
     else:
-        st.sidebar.success(f"✅ Data is fresh ({age.seconds // 3600}h old)")
+        hours_old = age.seconds // 3600
+        st.sidebar.success(f"✅ Data is fresh ({hours_old}h old)")
 else:
     st.sidebar.error("❌ No data found")
 
-# Add refresh button
+# Refresh section
 st.sidebar.markdown("---")
 st.sidebar.subheader("🔄 Data Refresh")
 
@@ -42,23 +49,37 @@ st.sidebar.info("""
 **Production:** Auto-refresh every 6 hours
 """)
 
-if st.sidebar.button("🔄 Refresh Data Now", help="Re-fetch from Yahoo Finance"):
-    with st.spinner("⏳ Fetching fresh data..."):
+# IMPROVED: Add more detailed refresh with proper error handling
+if st.sidebar.button("🔄 Refresh Data Now"):
+    
+    # Show progress
+    progress_bar = st.sidebar.progress(0)
+    status_text = st.sidebar.empty()
+    
+    try:
+        # Step 1: Check if scripts exist
+        status_text.text("Checking scripts...")
+        progress_bar.progress(10)
+        
+        if not os.path.exists('build_universe.py'):
+            st.sidebar.error("❌ build_universe.py not found!")
+            st.stop()
+        
+        # Step 2: Import and run directly (safer than subprocess)
+        status_text.text("Fetching data from Yahoo Finance...")
+        progress_bar.progress(30)
+        
+        # Import the modules
+        sys.path.insert(0, os.path.dirname(__file__))
+        
+        # Option A: Import and run (RECOMMENDED)
         try:
-            # Run data collection
-            import subprocess
-            subprocess.run(['python', 'build_universe.py'], check=True)
-            subprocess.run(['python', 'engineer_features.py'], check=True)
+            import build_universe
+            import importlib
+            importlib.reload(build_universe)
             
-            st.sidebar.success("✅ Data refreshed!")
-            st.rerun()
-        except Exception as e:
-            st.sidebar.error(f"❌ Refresh failed: {e}")
-
-st.sidebar.caption("Note: Full refresh takes ~8 minutes")
-
-# Add project root to path
-sys.path.append(os.path.dirname(__file__))
+            status_text.text("Running data collection...")
+            progress_bar.progress(60)
 
 from src.models.health_scorer import CompanyHealthScorer
 from src.models.portfolio_ranker import PortfolioRanker
