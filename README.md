@@ -353,9 +353,8 @@ Rank Score = Weighted Average of:
 ## 👥 Contributors
 
 Built by: Muhammed Shaheem OP
-
-Date: February 2026
-Purpose: HNI Investment Platform Technical Assessment
+- Date: February 2026
+- Purpose: HNI Investment Platform Technical Assessment
 
 ---
 
