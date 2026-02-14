@@ -10,6 +10,52 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
 import os
+import streamlit as st
+from datetime import datetime
+import os
+
+# In the sidebar
+st.sidebar.markdown("---")
+st.sidebar.subheader("📊 Data Status")
+
+# Show data age
+data_file = 'data/processed/stock_universe_engineered.csv'
+if os.path.exists(data_file):
+    file_time = datetime.fromtimestamp(os.path.getmtime(data_file))
+    age = datetime.now() - file_time
+    
+    st.sidebar.info(f"📅 Last updated: {file_time.strftime('%b %d, %Y at %I:%M %p')}")
+    
+    if age.days > 1:
+        st.sidebar.warning(f"⚠️ Data is {age.days} days old")
+    else:
+        st.sidebar.success(f"✅ Data is fresh ({age.seconds // 3600}h old)")
+else:
+    st.sidebar.error("❌ No data found")
+
+# Add refresh button
+st.sidebar.markdown("---")
+st.sidebar.subheader("🔄 Data Refresh")
+
+st.sidebar.info("""
+**Current:** Static snapshot for demo  
+**Production:** Auto-refresh every 6 hours
+""")
+
+if st.sidebar.button("🔄 Refresh Data Now", help="Re-fetch from Yahoo Finance"):
+    with st.spinner("⏳ Fetching fresh data..."):
+        try:
+            # Run data collection
+            import subprocess
+            subprocess.run(['python', 'build_universe.py'], check=True)
+            subprocess.run(['python', 'engineer_features.py'], check=True)
+            
+            st.sidebar.success("✅ Data refreshed!")
+            st.rerun()
+        except Exception as e:
+            st.sidebar.error(f"❌ Refresh failed: {e}")
+
+st.sidebar.caption("Note: Full refresh takes ~8 minutes")
 
 # Add project root to path
 sys.path.append(os.path.dirname(__file__))
